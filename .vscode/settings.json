@@ -1,0 +1,38 @@
+{
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "DB",
+            "database": "companydatabase",
+            "username": "postgres",
+            "password": "208802"
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Database",
+            "database": "company_db",
+            "username": "postgres",
+            "password": "208802"
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "coffeeshop",
+            "database": "coffeeshop",
+            "username": "postgres",
+            "password": "208802",
+            "connectionTimeout": 300
+        }
+    ]
+}
